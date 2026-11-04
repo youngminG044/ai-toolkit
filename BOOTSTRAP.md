@@ -2,7 +2,7 @@
 
 사용자가 다음처럼 요청하면 이 문서의 설치·인계 흐름을 수행한다.
 
-> https://github.com/ji0x0/ai_toolkit 를 설치해서 스킬을 파악하고 시작해줘
+> https://github.com/youngminG044/ai-toolkit 를 설치해서 스킬을 파악하고 시작해줘
 
 유사한 자연어의 설치·시작 요청도 같은 목적이다. 설명을 요구하거나 해당 문구를 예시로 인용한 것만으로 설치를 시작하지 않는다. 키트 소스 수정 요청은 저장소 유지보수 작업이다.
 
@@ -15,7 +15,7 @@
 키트는 업무 바깥에 받는다. 기본 경로는 `/tmp/ai_toolkit`이다.
 
 ```sh
-git clone --depth 1 https://github.com/ji0x0/ai_toolkit.git /tmp/ai_toolkit
+git clone --depth 1 https://github.com/youngminG044/ai-toolkit.git /tmp/ai_toolkit
 ```
 
 같은 경로에 클론이 이미 있으면 출처·버전·변경 상태를 확인한다. 다른 파일을 지우거나 사용자 변경을 덮어쓰지 않는다. 재사용이 부적절하면 다른 임시 경로를 사용한다. 네트워크나 플랫폼 제한에 막히면 우회하지 않고 실제 실패를 알린다.
