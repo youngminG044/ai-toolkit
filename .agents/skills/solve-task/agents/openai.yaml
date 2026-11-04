@@ -1,0 +1,4 @@
+interface:
+  display_name: "업무 분석과 협업 실행"
+  short_description: "담당자와 업무 목표·규칙을 확인하고 설계 브리핑 뒤 구현·검증·인계를 진행합니다."
+  default_prompt: "이 작업에 $solve-task 스킬을 적용해줘."

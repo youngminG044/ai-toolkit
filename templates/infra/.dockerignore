@@ -1,0 +1,13 @@
+.git
+.agents
+.local
+.venv
+**/node_modules
+**/__pycache__
+**/dist
+**/*.pyc
+.env
+.env.*
+*.joblib
+devlog.md
+probe.md

@@ -1,0 +1,4 @@
+interface:
+  display_name: "서비스 구현"
+  short_description: "실제 사용자 흐름을 UI·API·데이터로 연결하고 오류 처리를 확인합니다."
+  default_prompt: "이 작업에 $build-service 스킬을 적용해줘."

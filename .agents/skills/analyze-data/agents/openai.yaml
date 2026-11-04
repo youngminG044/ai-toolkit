@@ -1,0 +1,4 @@
+interface:
+  display_name: "데이터 분석"
+  short_description: "데이터의 의미·품질·누수·기준선과 수치 결과의 근거를 점검합니다."
+  default_prompt: "이 작업에 $analyze-data 스킬을 적용해줘."

@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "fullstack": ["frontend", "backend", "ai", "data", "infra"],
+    "frontend": ["frontend"],
+    "api": ["backend"],
+    "rag": ["ai"],
+    "data": ["data"]
+  },
+  "modules": {
+    "frontend": {"source": "frontend", "destination": "frontend", "requires": []},
+    "backend": {"source": "backend", "destination": "backend", "requires": ["ai", "data"]},
+    "ai": {"source": "ai", "destination": "ai", "requires": []},
+    "data": {"source": "data", "destination": "data", "requires": []},
+    "infra": {"source": "infra", "destination": ".", "requires": ["frontend", "backend"]}
+  }
+}

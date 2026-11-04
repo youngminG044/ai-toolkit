@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "vendored": [
+    {
+      "repository": "obra/superpowers",
+      "upstream_path": "skills/verification-before-completion/SKILL.md",
+      "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "blob_sha": "7d45333cc4a49c57a80df6c1fe2fa777a207afbc",
+      "local_path": "vendor/superpowers/verification-before-completion.md",
+      "license": "MIT",
+      "modification": "filename only"
+    },
+    {
+      "repository": "obra/superpowers",
+      "upstream_path": "LICENSE",
+      "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "blob_sha": "abf0390320aa14406af7a520b9b0739fdda9bf08",
+      "local_path": "vendor/superpowers/LICENSE",
+      "license": "MIT",
+      "modification": "none"
+    },
+    {
+      "repository": "github/spec-kit",
+      "upstream_path": "templates/spec-template.md",
+      "commit": "7370e592f3cd9c06e5b698983957e227c75b30e2",
+      "blob_sha": "ceb28776215a098e977650ac090c785dcbf53651",
+      "local_path": "vendor/spec-kit/spec-template.md",
+      "license": "MIT",
+      "modification": "none"
+    },
+    {
+      "repository": "github/spec-kit",
+      "upstream_path": "LICENSE",
+      "commit": "7370e592f3cd9c06e5b698983957e227c75b30e2",
+      "blob_sha": "28a50fa22639e32febe14e4ffc7a732b0ba8c90a",
+      "local_path": "vendor/spec-kit/LICENSE",
+      "license": "MIT",
+      "modification": "none"
+    }
+  ]
+}

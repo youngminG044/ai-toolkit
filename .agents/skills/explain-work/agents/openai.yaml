@@ -1,0 +1,4 @@
+interface:
+  display_name: "구현 이해와 업무 인계"
+  short_description: "실제 서비스 구조·선택 이유·검증과 운영 한계를 담당자와 함께 확인합니다."
+  default_prompt: "이 작업에 $explain-work 스킬을 적용해줘."

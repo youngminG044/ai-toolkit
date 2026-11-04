@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    volumes:
+      - workspace-data:/app/.local/data
+    environment:
+      ENABLE_API_DOCS: "${ENABLE_API_DOCS:-true}"
+    restart: unless-stopped
+volumes:
+  workspace-data:

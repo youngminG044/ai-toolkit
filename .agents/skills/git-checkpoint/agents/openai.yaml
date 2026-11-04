@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git과 자동저장"
+  short_description: "기존 변경을 보존하며 로컬 커밋·파일 스냅샷·세션 복구를 관리합니다."
+  default_prompt: "이 작업에 $git-checkpoint 스킬을 적용해줘."

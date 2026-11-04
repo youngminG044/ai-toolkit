@@ -1,0 +1,4 @@
+interface:
+  display_name: "개발 이력과 기술 선택 기록"
+  short_description: "실제 변경 이력과 기능별 기술 대안·선택 이유·검증·이해 상태를 기록합니다."
+  default_prompt: "$record-work로 업무 프로젝트의 devlog.md와 probe.md를 실제 협의·구현·검증 근거로 유지하고 서비스가 있으면 SERVICE.md도 연결해줘."

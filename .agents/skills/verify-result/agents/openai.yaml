@@ -1,0 +1,4 @@
+interface:
+  display_name: "검증과 인계"
+  short_description: "필수 요구별 실제 실행 근거를 확인하고 실패 원인과 인계 상태를 점검합니다."
+  default_prompt: "이 작업에 $verify-result 스킬을 적용해줘."
