@@ -21,7 +21,7 @@
 업무 폴더에서 실행 중인 Codex에 다음처럼 입력합니다.
 
 ```text
-https://github.com/youngminG044/ai_toolkit 를 설치해서 스킬을 파악하고 시작해줘
+https://github.com/youngminG044/ai-toolkit 를 설치해서 스킬을 파악하고 시작해줘
 ```
 
 **이 요청을 받은 Codex는 [BOOTSTRAP.md](BOOTSTRAP.md)를 읽고 실행합니다.** 실제 업무 폴더를 보존한 채 키트를 `/tmp/ai_toolkit`에 받아 `tools/bootstrap.py --target <실제 업무 루트>`로 준비합니다. 스킬 설치가 허용되면 설치하고, .agents 쓰기가 제한되면 공개 원본을 직접 읽는 reference 모드로 반환합니다. 스킬 목록·설명을 파악하고 반환된 `entry_path`의 solve-task/SKILL.md를 읽어 **현재 대화에서** 이어갑니다. Codex를 다시 실행하지 않습니다.
@@ -49,7 +49,7 @@ MCP·플러그인은 현재 도구로 접근할 수 없는 자료나 기능이 �
 아래 명령은 **실제 업무의 작업 폴더**에서 실행합니다. 키트는 별도 경로에 받습니다.
 
 ```sh
-git clone --depth 1 https://github.com/youngminG044/ai_toolkit.git /tmp/ai_toolkit
+git clone --depth 1 https://github.com/youngminG044/ai-toolkit.git /tmp/ai_toolkit
 python3 /tmp/ai_toolkit/tools/start.py --target .
 ```
 
