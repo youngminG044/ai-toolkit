@@ -1,6 +1,6 @@
 ---
 name: explain-work
-description: Help stakeholders understand a service or change through actual user flows, component relationships, technical decisions and verification evidence. Use for code walkthroughs, handoff discussions and checking shared understanding.
+description: Help stakeholders understand a service or change through actual user flows, technical decisions and verification evidence, with grounded practice questions and sample answers when written follow-up preparation is needed. Use for code walkthroughs, handoff discussions and written assessment preparation.
 ---
 
 # 업무 결과물 이해와 담당자 인계
@@ -49,7 +49,13 @@ probe.md의 사용자 이해 상태는 실제 확인한 범위만 갱신하고, 
 - 설정·수요 분포 변화 → 예상 영향 → 관측 지표/실제 결과 또는 다음 검증.
 - AI 원인 가설/수정 제안 → 채택·수정 요청·기각 → 사용자 본인의 근거와 재확인. 실제 기록이 없으면 확인 전으로 둔다.
 
-사용자가 함께 이해를 확인하고 싶다고 요청하면 한 번에 핵심 질문 하나를 다룬다. 사용자 설명과 실제 구현을 대조해 다른 부분·남은 질문을 짚고 다음 확인으로 이어간다. 결정·실험·담당자 동의는 실제로 확인한 근거로 설명한다.
+## 서술형 대비 질문과 예시 답변
+
+후속 서술형이 안내되었거나 사용자가 대비를 요청했다면 [질문·답변 준비 기준](references/written-preparation.md)을 읽고 구현·검증 뒤 자동으로 준비한다. 현재 코드·테스트 결과·AI 협업 기록을 대조해 기본 6개 주제의 예상 질문, 핵심 요점, 3~5문장 예시 답변과 실제 파일·함수·테스트 근거를 채팅에 제시한다. 업무 probe.md의 `서술형 대비` 구획에 같은 자료를 두고 기존 기능/결정의 상세 근거를 연결한다. 새 답안 파일은 기본 생성하지 않으며, 문서가 제한되면 허용된 위치나 채팅을 사용한다.
+
+기본 세션에서는 T+120분 전까지 자료를 준비하고 이후에는 준비된 질문으로 한 문제씩 직접 답변하도록 안내한다. 사용자가 답변하면 현재 구현·기록과 다른 부분과 빠진 근거를 설명하고 사용자가 자기 말로 다시 정리하도록 돕는다. 예시 답변 생성, 사용자 답변 대기, 실제로 확인한 이해 범위를 구분한다. 늦게 시작한 대비와 도구 제한은 참조 문서의 시간·권한 기준을 따른다.
+
+서술형 대비가 아닌 일반 이해 확인을 사용자가 요청한 경우에도 한 번에 핵심 질문 하나를 다룬다. 사용자 설명과 실제 구현을 대조해 다른 부분·남은 질문을 짚고 다음 확인으로 이어간다. 결정·실험·담당자 동의는 실제로 확인한 근거로 설명한다.
 
 담당자와 확인할 핵심 질문은 “이 입력은 어디서 어떻게 처리되나?”, “왜 이 대안을 택했나?”, “어떤 근거로 업무 규칙을 충족했음을 확인했나?”, “운영 조건이 바뀌면 무엇을 다시 확인해야 하나?”다.
 
